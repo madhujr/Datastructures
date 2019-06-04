@@ -1,0 +1,20 @@
+str1="abcd123"
+str2="abc"
+str3="1212.33"
+str4="1211"
+str5=" "
+str6="hello world"
+print(str1)
+print(str.isalnum(str1))
+print(str2)
+print(str.isalpha(str2))
+print(str3)
+print(str.isdecimal(str3))
+print(str4)
+print(str.isdecimal(str3))
+print(str.isdigit(str3))
+print(str.isnumeric(str3))
+print(str5)
+print(str.isspace(str5))
+print(str6)
+print(str.isspace(str6))
