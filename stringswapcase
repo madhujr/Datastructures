@@ -1,0 +1,11 @@
+def swap_case(str1):
+  str2=""
+  print(str1)
+  for c in str1:
+    if c.isupper():
+      str2=str2+c.lower()
+    else:
+      str2=str2+c.upper()
+  return(str2)
+res=swap_case("Jeppiaar Engineering College")
+print(res)
