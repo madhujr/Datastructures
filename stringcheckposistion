@@ -1,0 +1,15 @@
+str="hello hello world world"
+str1="hello"
+str2="world"
+str3="o"
+print(str)
+print(str1)
+print(str2)
+print(str.endswith(str1))
+print(str.startswith(str1))
+print(str.startswith(str1,10))
+print(str.endswith(str2,10))
+print(str.find(str2))
+print(str.find(str3,12))
+print(str.index(str1))
+print(str.index(str1,1))
